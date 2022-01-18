@@ -1,0 +1,63 @@
+<?php
+echo "<br>";
+echo "<center>=====<>====<b> Adding two string & Counting and reversing Characters </b>====<>=====<center>";
+echo "<br>";
+echo "<br>";
+
+echo "Two String's are:  Tawfiqul and Islam <br><br>";
+
+$f_name= "Tawfiqul";
+$l_name= "Islam";
+$num1 = 50;
+$num2 = -3;
+
+$St_result = $f_name." ".$l_name;
+$strlen= strlen($St_result);
+
+echo "String+(StringLenth) = ", $St_result." ($strlen) ";
+
+echo "<br><br> reversing result: ", strrev("$St_result");
+
+echo "<br>";
+echo "<br>";
+echo "<center>=====<>==== <b>Arithmetic operator</b>====<>=====<center>";
+echo "<br>";
+echo "<br>";
+
+echo "Two Number's are $num1 & $num2 <br><br>";
+
+echo "Addition: ", $num1 + $num2. "<br>";
+echo "Subtraction: ", $num1 - $num2. "<br>";
+echo "multiplication: ", $num1 * $num2. "<br>";
+echo "division: ", $division= $num1 / $num2. "<br><br>";
+echo "The absolute value of division is:  ".  abs( $division );
+echo "<br>";
+
+echo "The Round value of absolute result :  ".  round( abs ($division) );
+
+echo "<br><br><>~~~~ <b>Comparison Operator(<, >, >=, <=, !=)</b> ~~~<><br><br>";
+
+echo "Two Number's are $num1 & $num2 <br><br>";
+
+echo "if num1>num2 then result is : ", $num1>$num2;
+
+echo "<br>";
+
+echo "if num2>num1 then result is : ", $num2>$num1;
+
+echo "<br>";
+
+echo "if num1>=num2 then result is : ", $num1>=$num2;
+
+echo "<br>";
+
+echo "if num1!=num2 then result is : ", $num1!=$num2;
+echo "<br>=====**======<br><br>";
+
+echo "Random Value for Unique Data: <b>", rand().".png </b>";
+
+echo "<br>=====**======<br><br>";
+
+$page = $_SERVER['PHP_SELF'];
+print "<a href=\"$page\">Reload this page</a>";
+?>
